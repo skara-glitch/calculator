@@ -1,0 +1,33 @@
+<div class="calculator">
+    <h1 class = "heading">Calculator</h1>
+    <table border="1">
+        <tr>
+            <td colspan="3"><input type="text" id="input"></td>
+            <td><button  id="clr" value='clr' onclick=clr()>clr</button></td>
+        </tr>
+        <tr>
+            <td><button  id="block7" value='7' onclick=display(this.value)>7</button></td>
+            <td><button  id="block8" value='8' onclick=display(this.value)>8</button></td>
+            <td><button  id="block9" value='9' onclick=display(this.value)>9</button></td>
+            <td><button  id="divide" value='/' onclick=display(this.value)>/</button></td>
+        </tr>
+        <tr>
+            <td><button  id="block4" value='4' onclick=display(this.value)>4</button></td>
+            <td><button  id="block5" value='5' onclick=display(this.value)>5</button></td>
+            <td><button  id="block6" value='6' onclick=display(this.value)>6</button></td>
+            <td><button  id="minus" value='-' onclick=display(this.value)>-</button></td>
+        </tr>
+        <tr>
+            <td><button  id="block1" value='1' onclick=display(this.value)>1</button></td>
+            <td><button  id="block2" value='2' onclick=display(this.value)>2</button></td>
+            <td><button  id="block3" value='3' onclick=display(this.value)>3</button></td>
+            <td><button  id='plus' value='+' onclick=display(this.value)>+</button></td>
+        </tr>
+        <tr>
+            <td> <button  id="block0" value='0' onclick=display(this.value)>0</button></td>
+            <td><button  id="dot" value='.' onclick=display(this.value)>.</button></td>
+            <td><button  id="ans" value='ans' onclick=solve()>=</button></td>
+            <td><button  id="multiply" value='*' onclick=display(this.value)>*</button></td>    
+        </tr>
+    </table>
+</div>
