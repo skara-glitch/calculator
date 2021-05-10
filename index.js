@@ -16,6 +16,6 @@ function solve(){
     clear_display=true;
 }
 function clr(){
-    prompt("Please enter your name", "Harry Potter");
+    alert("hello");
     document.getElementById("input").value = "";
 }
