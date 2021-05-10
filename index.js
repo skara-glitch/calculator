@@ -16,6 +16,6 @@ function solve(){
     clear_display=true;
 }
 function clr(){
-    alert("hello");
+    console.log("hello");
     document.getElementById("input").value = "";
 }
